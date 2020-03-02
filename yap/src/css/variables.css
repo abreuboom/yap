@@ -1,0 +1,8 @@
+:root {
+    /* Colors */
+    --bg-color: #111112;
+    --card-color: #1c1c1e;
+    --secondary-text-color: #565657;
+
+    --default-radius: 32px;
+}

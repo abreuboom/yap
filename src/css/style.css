@@ -1,7 +1,9 @@
 html {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+
+  background-color: --var(bg-color);
 }
 
 body {
@@ -591,13 +593,13 @@ ul li {
   padding-left: 0;
 }
 
-li>ol {
+li > ol {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
 }
 
-li>ul {
+li > ul {
   margin-left: 1.45rem;
   margin-bottom: calc(1.45rem / 2);
   margin-top: calc(1.45rem / 2);
@@ -615,7 +617,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 
-li>p {
+li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 

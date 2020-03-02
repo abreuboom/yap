@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import css from "../css/Header.module.css";
 
-const Header = () => (
+const Header = ({ siteTitle }) => (
   <header className={css.header}>
     <div
       style={{
@@ -18,7 +18,7 @@ const Header = () => (
             color: `white`,
             textDecoration: `none`
           }}>
-          YAP
+          {siteTitle}
         </Link>
       </h1>
     </div>

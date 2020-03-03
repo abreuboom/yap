@@ -1,19 +1,5 @@
-import mongoose from 'mongoose';
-import tweet from './tweetModel';
-
 var Twitter = require('twitter');
 var config = require('./config.js');
-
-// exports.getAllTweets = (req, res) => {
-//     tweet.find({}, (err, notes) => {
-//         if (err) {
-//             res.send(err);
-//         }
-
-//         res.json(notes);
-//     });
-// };
-
 
 export async function fetchTweets() {
     console.log("yummy");

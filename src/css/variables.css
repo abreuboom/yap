@@ -4,5 +4,8 @@
     --card-color: #1c1c1e;
     --secondary-text-color: #565657;
 
+
+    /* Defaults */
     --default-radius: 32px;
+    --default-font-size: 16px;
 }

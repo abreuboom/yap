@@ -6,6 +6,7 @@
  */
 
 import "../css/style.css";
+import "../css/variables.css";
 
 import { graphql, useStaticQuery } from "gatsby";
 
@@ -33,7 +34,7 @@ const Layout = ({ children }) => {
         {/* <main> {children} </main> */}
         <Feed />
         <footer>
-          ©{new Date().getFullYear()}, Built with {` `}
+          ©{new Date().getFullYear()}, Built with
           <a href='https://www.gatsbyjs.org'> Gatsby </a>
         </footer>
       </div>

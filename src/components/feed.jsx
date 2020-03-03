@@ -1,18 +1,23 @@
 import React, { useEffect, useState } from "react";
 
-import PropTypes from "prop-types";
+import TitleCard from "./titleCard";
 import css from "../css/Feed.module.css";
-import { fetchTweets } from "../backend/server.js";
+import { fetchTweets } from "../backend/api.js";
 
 const Feed = () => {
-  const [hasError, setErrors] = useState(false);
-  const [tweets, setTweets] = useState(0);
+  //   const [hasError, setErrors] = useState(false);
+  //   const [tweets, setTweets] = useState(0);
 
   useEffect(() => {
     fetchTweets();
   });
 
-  return <div className={css.container}></div>;
+  return (
+    <div>
+      <TitleCard />
+      <div className={css.container}></div>
+    </div>
+  );
 };
 
 export default Feed;

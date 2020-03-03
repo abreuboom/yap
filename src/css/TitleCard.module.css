@@ -1,0 +1,26 @@
+.container {
+    padding: 49px 28px;
+    display: flex;
+    align-items: center;
+}
+
+
+.dots {}
+
+.titleText {
+    display: inline-block;
+    font-weight: bold;
+    margin-left: 5vw;
+
+}
+
+.titleText p {
+    margin: 0;
+    line-height: 16px;
+}
+
+.titleText h1 {
+    margin: 8px 0 0 0;
+    font-size: 32px;
+    line-height: 32px;
+}

@@ -1,0 +1,45 @@
+.card {
+  display: inline-block;
+  width: var(--default-card-width);
+  max-height: var(--default-card-height);
+  max-width: calc((var(--base-width) / 2) - var(--card-spacing));
+
+  margin-bottom: var(--card-spacing);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 45px;
+}
+
+.userInfo {
+  display: inline-block;
+  margin-left: 8px;
+}
+
+.profileImg {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+.name {
+  margin: 0;
+
+  display: inline;
+  font-weight: 500;
+}
+
+.screenName {
+  margin: 0;
+
+  font-size: 14px;
+  color: var(--secondary-text-color);
+}

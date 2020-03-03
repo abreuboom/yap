@@ -1,11 +1,15 @@
 :root {
-    /* Colors */
-    --bg-color: #111112;
-    --card-color: #1c1c1e;
-    --secondary-text-color: #565657;
+  /* Colors */
+  --bg-color: #111112;
+  --card-color: #1c1c1e;
+  --secondary-text-color: #565657;
 
+  --card-spacing: 39px;
+  --base-width: 700px;
 
-    /* Defaults */
-    --default-radius: 32px;
-    --default-font-size: 16px;
+  /* Defaults */
+  --default-radius: 32px;
+  --default-font-size: 16px;
+  --default-card-width: 338px;
+  --default-card-height: 472px;
 }

@@ -1,3 +1,14 @@
 .container {
-    display: flex;
+  display: flex;
+  margin-top: 41px;
+  margin-left: calc(-1 * var(--card-spacing)); /* gutter size offset */
+  width: auto;
+
+  max-height: 800px;
+  max-width: 100%;
+}
+
+.column {
+  padding-left: var(--card-spacing); /* gutter size */
+  background-clip: padding-box;
 }

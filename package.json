@@ -13,10 +13,12 @@
     "gatsby-plugin-sharp": "^2.4.5",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-sharp": "^2.3.16",
+    "googleapis": "^39.2.0",
     "prop-types": "^15.7.2",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-helmet": "^5.2.1",
+    "react-masonry-css": "^1.0.14",
     "twitter": "^1.7.1"
   },
   "devDependencies": {
